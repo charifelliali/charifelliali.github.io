@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radio Globe App</title>
+<meta name="description" content="Apps gratuitas para escuchar la radio en directo de cada país.">
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--ink:#1b1b1b;--muted:#5f5f5f;--line:#e4e4e0;--accent:#c62828}
+@media (prefers-color-scheme:dark){:root{--bg:#121212;--card:#1d1d1d;--ink:#f0f0f0;--muted:#a8a8a8;--line:#2e2e2e;--accent:#ef5350}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:56px 20px 40px}
+h1{font-size:2.2rem;margin:0 0 6px;letter-spacing:-.02em}
+.lead{color:var(--muted);margin:0 0 40px;font-size:1.1rem}
+.apps{display:grid;gap:16px}
+.app{display:flex;gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.icon{width:56px;height:56px;border-radius:14px;flex:none;display:grid;place-items:center;color:#fff;font-size:26px}
+.app h2{margin:0;font-size:1.15rem}
+.app p{margin:2px 0 8px;color:var(--muted);font-size:.95rem}
+.links a{color:var(--accent);text-decoration:none;font-weight:600;margin-right:16px;font-size:.92rem}
+.links a:hover{text-decoration:underline}
+footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+footer a{color:inherit}
+</style>
+</head>
+<body>
+<main>
+  <h1>Radio Globe App</h1>
+  <p class="lead">Apps gratuitas para escuchar en directo las emisoras de radio de cada país.</p>
+
+  <section class="apps">
+    <article class="app">
+      <div class="icon" style="background:linear-gradient(#D32F2F,#8E1B14)">📻</div>
+      <div>
+        <h2>Radios de España</h2>
+        <p>Cientos de emisoras españolas en directo, por comunidad y género.</p>
+        <div class="links">
+          <a href="https://play.google.com/store/apps/details?id=com.radiosespana.radio_app">Google Play</a>
+          <a href="https://claude.ai/artifact/NkvZkkJqSyaJiJrgtt426m">Política de privacidad</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="app">
+      <div class="icon" style="background:linear-gradient(#009A4E,#00592C)">📻</div>
+      <div>
+        <h2>Radio Italiane</h2>
+        <p>Centinaia di radio italiane in diretta, per regione e genere.</p>
+        <div class="links">
+          <a href="https://play.google.com/store/apps/details?id=com.radioglobeapp.italia">Google Play</a>
+          <a href="https://claude.ai/artifact/Kufm3M5Aagrn9v4ER54JMC">Privacy policy</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <footer>
+    Contacto: <a href="mailto:radiodeespana.app@gmail.com">radiodeespana.app@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
